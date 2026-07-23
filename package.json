@@ -1,0 +1,24 @@
+{
+  "name": "kedai-sedulur-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:sandbox": "wrangler pages dev dist --ip 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "wrangler pages dev dist --ip 0.0.0.0 --port 3000",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name kedai-sedulur-demo",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "hono": "^4.10.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260721.1",
+    "@hono/vite-cloudflare-pages": "^0.4.2",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19",
+    "wrangler": "^4.38.0"
+  }
+}
