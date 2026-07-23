@@ -48,7 +48,7 @@ Buka halaman utama, gulir untuk melihat cerita, suasana, pilihan menu, alamat, d
 ## URLs
 
 - **Production:** https://kedai-sedulur-demo.pages.dev
-- **Deployment snapshot:** https://14b42633.kedai-sedulur-demo.pages.dev
+- **Deployment snapshot:** https://92370b82.kedai-sedulur-demo.pages.dev
 - **GitHub:** https://github.com/Sparkmind-obp-off/Kedaisedulur.pwt
 
 ## Deployment
