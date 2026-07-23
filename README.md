@@ -2,16 +2,16 @@
 
 ## Project Overview
 
-Demo landing page Editorial untuk Kedai Sedulur Kalibener. Situs menampilkan suasana kedai, menu representatif dengan harga yang terbaca dari sumber, rating Google 5.0 dari 139 review, serta informasi lokasi yang belum diklaim melebihi data terverifikasi.
+Demo landing page Editorial untuk Kedai Sedulur Kalibener. Situs menampilkan suasana kedai, menu representatif dengan harga yang terbaca dari sumber, rating Google 5.0 dari 139 review, alamat lengkap, jam operasional yang sudah tersedia, serta CTA WhatsApp publik.
 
 ## Completed Features
 
 - Landing page Editorial responsif untuk desktop dan mobile
-- Hero, cerita kedai, galeri suasana, pilihan menu, lokasi, dan CTA Google Maps
+- Hero, cerita kedai, galeri suasana, pilihan menu, alamat lengkap, jam operasional, CTA Google Maps, dan CTA WhatsApp
 - API metadata publik di `/api/site`
 - Aset gambar lokal teroptimasi dalam format WebP
 - Dukungan reduced motion dan semantic HTML
-- Placeholder eksplisit untuk informasi yang belum terverifikasi
+- Placeholder eksplisit untuk jam operasional hari Rabu yang masih perlu dikonfirmasi
 
 ## Functional URIs
 
@@ -30,22 +30,20 @@ Demo landing page Editorial untuk Kedai Sedulur Kalibener. Situs menampilkan sua
 
 ## User Guide
 
-Buka halaman utama, gulir untuk melihat cerita, suasana, pilihan menu, dan lokasi. Gunakan tautan Google Maps untuk mencari listing terbaru sebelum berkunjung.
+Buka halaman utama, gulir untuk melihat cerita, suasana, pilihan menu, alamat, dan jam operasional. Gunakan tombol WhatsApp untuk menghubungi kedai atau tautan Google Maps untuk membuka lokasi.
 
 ## Verification Pending / Not Yet Implemented
 
-- Jam operasional perlu dikonfirmasi langsung
-- Alamat detail dan kecamatan perlu dikonfirmasi karena sumber yang tersedia berbeda
+- Jam operasional hari Rabu perlu dikonfirmasi ulang; hari lain ditampilkan sesuai data terbaru
 - Handle sosial `@kedaisedulur.pwt` perlu diverifikasi manual sebelum ditampilkan sebagai kanal kontak publik
 - Event dan testimoni tertulis tidak ditampilkan sampai tersedia sumber asli
 - Form booking atau kontak tidak termasuk ruang lingkup demo
 
 ## Recommended Next Steps
 
-1. Konfirmasi jam operasional dengan pemilik.
-2. Konfirmasi alamat lengkap dan kecamatan.
-3. Verifikasi handle sosial resmi.
-4. Minta izin pemakaian foto bila demo akan dipublikasikan sebagai portofolio terbuka.
+1. Konfirmasi jam operasional hari Rabu dengan pemilik.
+2. Verifikasi handle sosial resmi.
+3. Minta izin pemakaian foto bila demo akan dipublikasikan sebagai portofolio terbuka.
 
 ## URLs
 

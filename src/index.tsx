@@ -10,8 +10,14 @@ app.get('/api/site', (c) => c.json({
   name: 'Kedai Sedulur Kalibener',
   rating: 5.0,
   reviewCount: 139,
-  location: 'Kalibener, Purwokerto',
-  hoursStatus: 'needs_confirmation'
+  address: 'Jl. Kalibener No.55, RT.005/RW.003, Kalibener, Kranji, Kec. Purwokerto Timur, Kabupaten Banyumas, Jawa Tengah 53116',
+  hours: {
+    monday: 'Tutup',
+    tuesday: '11.00–24.00',
+    wednesday: 'Perlu dikonfirmasi',
+    thursdayToSunday: '11.00–24.00'
+  },
+  whatsapp: 'https://wa.me/6285385308852'
 }))
 
 app.get('/', (c) => c.html(`<!doctype html>
@@ -152,15 +158,15 @@ app.get('/', (c) => c.html(`<!doctype html>
       </header>
       <div class="location-grid">
         <article class="location-card reveal">
-          <p class="location-label">Area</p>
-          <h3>Kalibener,<br>Purwokerto</h3>
-          <p class="verification-note"><strong>Alamat detail perlu dikonfirmasi.</strong> Sumber yang tersedia berbeda mengenai kecamatan, jadi informasi tersebut belum ditampilkan.</p>
-          <a href="https://www.google.com/maps/search/?api=1&query=Kedai+Sedulur+Kalibener+Purwokerto" target="_blank" rel="noreferrer">Cari di Google Maps <span aria-hidden="true">↗</span></a>
+          <p class="location-label">Alamat</p>
+          <h3>Kalibener,<br>Purwokerto Timur</h3>
+          <p class="verification-note">Jl. Kalibener No.55, RT.005/RW.003, Kalibener, Kranji, Kec. Purwokerto Timur, Kabupaten Banyumas, Jawa Tengah 53116.</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Jl.+Kalibener+No.55+Kalibener+Kranji+Purwokerto+Timur" target="_blank" rel="noreferrer">Buka di Google Maps <span aria-hidden="true">↗</span></a>
         </article>
         <article class="hours-card reveal">
           <p class="location-label">Jam operasional</p>
-          <div class="pending-stamp">Perlu dikonfirmasi</div>
-          <p>Jam buka belum terverifikasi dari sumber resmi. Silakan cek listing Google Maps terbaru sebelum berkunjung.</p>
+          <div class="pending-stamp">Rabu perlu dikonfirmasi</div>
+          <p><strong>Selasa & Kamis–Minggu: 11.00–24.00</strong><br>Senin: Tutup</p>
         </article>
       </div>
     </section>
@@ -168,8 +174,8 @@ app.get('/', (c) => c.html(`<!doctype html>
     <section class="closing-section" aria-labelledby="closing-title">
       <p class="closing-kicker reveal">Sedulur berarti keluarga</p>
       <h2 id="closing-title" class="reveal">Satu meja.<br><em>Banyak cerita.</em></h2>
-      <p class="closing-copy reveal">Kanal kontak publik masih dalam proses verifikasi. Untuk sementara, temukan informasi terbaru melalui pencarian Google Maps.</p>
-      <a class="closing-link reveal" href="https://www.google.com/maps/search/?api=1&query=Kedai+Sedulur+Kalibener+Purwokerto" target="_blank" rel="noreferrer">Buka Google Maps <span aria-hidden="true">↗</span></a>
+      <p class="closing-copy reveal">Tanya menu, jam buka, atau rencana kedatangan langsung melalui WhatsApp Kedai Sedulur.</p>
+      <a class="closing-link reveal" href="https://wa.me/6285385308852" target="_blank" rel="noreferrer">Chat via WhatsApp <span aria-hidden="true">↗</span></a>
     </section>
   </main>
 
