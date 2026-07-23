@@ -47,10 +47,18 @@ Buka halaman utama, gulir untuk melihat cerita, suasana, pilihan menu, dan lokas
 3. Verifikasi handle sosial resmi.
 4. Minta izin pemakaian foto bila demo akan dipublikasikan sebagai portofolio terbuka.
 
+## URLs
+
+- **Production:** https://kedai-sedulur-demo.pages.dev
+- **Deployment snapshot:** https://14b42633.kedai-sedulur-demo.pages.dev
+- **GitHub:** https://github.com/Sparkmind-obp-off/Kedaisedulur.pwt
+
 ## Deployment
 
-- **Platform:** Cloudflare Pages
+- **Platform:** Cloudflare Pages (BYOK)
+- **Project:** `kedai-sedulur-demo`
+- **Production branch:** `main`
 - **Stack:** Hono + TypeScript + Vite
-- **Production URL:** belum dideploy
-- **Status:** pemulihan source dan validasi lokal
+- **Status:** aktif; endpoint dan regression check production lulus
+- **Deployed:** 2026-07-23
 - **Last updated:** 2026-07-23
